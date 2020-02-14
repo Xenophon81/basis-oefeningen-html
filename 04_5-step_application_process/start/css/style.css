@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  border: 1px solid red;
+
+  /* Multiple images + color blend */
+  background: url("../img/background.jpg"), rgba(255, 255, 255, 0.8);
+  background-size: cover;
+  filter: grayscale(100%);
+  background-blend-mode: lighten;
+  padding: 2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Abril Fatface", cursive;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #886c06;
+  /* font-size: 18px; */
+}
+
+section {
+  padding: 2rem 4rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 1rem;
+}
